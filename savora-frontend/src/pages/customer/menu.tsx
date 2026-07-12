@@ -6,7 +6,10 @@ import MenuCategories from "../../components/customer/MenuCategories";
 import DishGrid from "../../components/customer/DishGrid";
 import { menuItems } from "../../data/menu";
 
-const [search, setSearch] = useState("");
+
+
+function Menu() {
+  const [search, setSearch] = useState("");
 
 const [selectedCategory, setSelectedCategory] =
   useState("All");
@@ -20,8 +23,6 @@ const [selectedCategory, setSelectedCategory] =
 
   return matchesSearch && matchesCategory;
 });
-
-function Menu() {
   return (
     <>
       <Navbar />
