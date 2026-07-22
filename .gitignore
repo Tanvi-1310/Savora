@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.db
+venv/
+.env
+
+# Node
+savora-frontend/node_modules/
+savora-frontend/dist/
+
+# IDE
+.vscode/
+.idea/
