@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Mail } from "lucide-react";
+//import { Facebook, Instagram, Twitter, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -67,13 +67,13 @@ function Footer() {
 
           <div className="flex gap-4">
 
-            <Facebook />
+            {/* <Facebook />
 
             <Instagram />
 
-            <Twitter />
+            <Twitter /> */}
 
-            <Mail />
+            {/* <Mail /> */}
 
           </div>
 

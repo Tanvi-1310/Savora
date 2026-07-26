@@ -7,8 +7,6 @@ import DashboardPreview from "../components/home/DashboardPreview";
 import Pricing from "../components/home/Price";
 import CTA from "../components/home/cta";
 
-
-
 function Home() {
   return (
     <>
